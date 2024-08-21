@@ -1,0 +1,80 @@
+/* From Uiverse.io by akshat-patel28 */
+.card {
+  width: 500px;
+  height: 500px;
+  background: rgba(38, 160, 127, 0.51);
+  border-radius: 15px;
+
+  display: flex;
+  color: white;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  background: linear-gradient(to right, rgba(100, 193, 201, 0.634), rgba(49, 77, 108, 0.88), rgba(191, 87, 146, 0.74));
+  cursor: pointer;
+  overflow: hidden;
+  align-items: center;
+  margin-top: 40px;
+
+}
+
+.card:hover {
+  box-shadow: rgba(44, 130, 150, 0.683) 5px 10px 50px, rgb(14, 20, 18) -5px 0px 250px;
+}
+
+.time-text {
+  font-size: 30px;
+  margin-top: 0px;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+.plus {
+  font-size: 18px;
+  margin-top: 0px;
+width: 100px;
+border-radius: 5px;
+border: none;
+  font-weight: 500;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: linear-gradient(to right, rgba(100, 193, 201, 0.804), rgba(191, 87, 146, 0.785));
+color: white;
+}
+
+.moon {
+  font-size: 50px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover > .moon {
+  font-size: 27px;
+}
+.reset{
+    margin-top: 7px;
+    color: rgb(244, 237, 237);
+    background: linear-gradient(to right, rgb(100, 193, 201),  rgba(191, 87, 146, 0.812));
+    border: none;
+    padding: 6px;
+}
+.middle{
+    display:flex ;
+
+    align-items: center;
+    justify-content:center;
+    
+}
+.music{
+    background: linear-gradient(to right, rgb(100, 193, 201), rgba(191, 87, 146, 0.886));
+    padding: 15px;
+    margin-top: 25px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: rgba(241, 229, 229, 0.726);
+    width: 60px;
+    text-align: center;
+
+}
